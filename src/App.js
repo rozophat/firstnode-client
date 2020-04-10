@@ -8,7 +8,7 @@ import AddBook from './components/AddBook';
 
 // apollo client setup
 const client = new ApolloClient({
-  uri: 'http://localhost:3001/graph'
+  uri: 'https://firstnode-server.rozophat.now.sh/graph'
 });
 
 class App extends Component {
